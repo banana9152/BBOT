@@ -2,6 +2,7 @@ import discord
 import asyncio
 from captcha.image import ImageCaptcha
 import random
+import os
 
 client = discord.Client()
 
@@ -100,4 +101,4 @@ async def on_message(message):
             await message.channel.send("**__Captcha__ 인증에 실패했어요 다시 한번 해보세요!**") 
 
                         
-client.run('NzM0OTgzMzQ0NzQzMjUyMDcw.XxZorA.QdSiO20KJChnamp0W8bx3tKaNS0')
+client.run('Token')
